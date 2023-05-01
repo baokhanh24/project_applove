@@ -1,0 +1,309 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Dancing Script', cursive; */
+}
+
+.main {
+    position: relative;
+    background-color: #9F4545;
+    width: 414px;
+    height: 896px;
+}
+
+.contaier {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, rgba(238, 78, 116, 0.58) 0%, rgba(140, 48, 120, 0.54) 33.33%, rgba(101, 8, 81, 0.561299) 66.67%, rgba(87, 2, 33, 0.82) 94.97%);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+    .logo .logo_love {
+        width: 145px;
+        height: 134px;
+    }
+
+.datetime {
+}
+
+    .datetime .date_love {
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        margin-top: 30px;
+    }
+
+.avatar {
+    padding: 0 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+.jointphoto {
+    width: 146px;
+    height: 146px;
+    border-radius: 73px;
+}
+
+.fullname {
+    padding: 0 56px 0 54px;
+}
+
+.name {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_men {
+    display: flex;
+    align-items: center;
+}
+
+.name_woman {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.share {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.name_men img {
+    margin-right: 6px;
+    margin-top: 2px;
+}
+
+.name_woman img {
+    margin-right: 4px;
+    margin-top: 2px;
+}
+
+.name_share {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.cung {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.duc {
+    background-color: #810035;
+    border-radius: 10px;
+    width: 96px;
+    height: 20px;
+    margin-right: -10px;
+    display: flex;
+    align-items: center;
+}
+
+.cai {
+    background-color: #4D3869;
+    border-radius: 10px;
+    width: 96px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.share_sex {
+    width: 13px;
+    height: 13px;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.name_cung {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.mess_note {
+    display: flex;
+    justify-content: center;
+}
+
+.messenger {
+    position: relative;
+    background: linear-gradient(180deg, rgba(190, 66, 66, 0.16) 0%, rgba(133, 64, 64, 0.62339) 46.53%, rgba(133, 64, 64, 0.8) 94.46%);
+    border-radius: 10px;
+    width: 325px;
+    height: 161px;
+    margin-top: 50px;
+}
+
+.note {
+    position: absolute;
+    top: 18px;
+    left: 12px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffff;
+}
+
+.Notification {
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+.fooder {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 63px;
+    z-index: 9999;
+}
+
+.bottom {
+    background: rgba(50, 3, 73, 0.15);
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    text-decoration: none;
+}
+
+.bottom a {
+    text-decoration: none;
+}
+
+.bottom i {
+    display: flex;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar_li {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    bottom: 157%;
+    left: -62px;
+    width: 159px;
+    min-height: 100%;
+    background: linear-gradient(180deg, #a23e61 23%, #96103d 81%);
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: none;
+}
+
+    .menu li, .number_phone li {
+        padding: 9px 0;
+    }
+
+    .menu a, .number_phone a {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: bold;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .menu a {
+        display: flex;
+        align-items: center;
+    }
+
+        .menu a i {
+            display: flex;
+            font-size: 18px;
+            padding-right: 5px;
+        }
+
+        .menu a:hover {
+            opacity: 0.8;
+        }
+
+.phone_li {
+    position: relative;
+}
+
+.number_phone {
+    width: 130px;
+    padding: 0 15px;
+    min-height: 100%;
+    position: absolute;
+    bottom: 155%;
+    right: -48px;
+    height: auto;
+    background: linear-gradient(180deg, #a23e61 23%, #96103d 81%);
+    border-radius: 10px;
+    display: none;
+}
+
+    .number_phone li {
+    }
+
+    .number_phone i {
+        font-size: 18px;
+        padding-right: 3px;
+        display: block;
+        text-decoration: none;
+        font-weight: 700;
+        color: #ccc;
+    }
